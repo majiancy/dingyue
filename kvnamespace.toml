@@ -1,0 +1,6 @@
+# 1. 连接到你的KV命名空间
+kv_namespaces = [
+  { binding = "KV", id = "82918e64ac514467aa18b9230c2ff064" }
+]
+# 2. 部署到workers.dev（最简单的方式）
+workers_dev = true
