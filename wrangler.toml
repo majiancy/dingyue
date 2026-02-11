@@ -5,7 +5,6 @@ keep_vars = true
 
 #[[kv_namespaces]]
 #binding = "KV"			#KV绑定名默认不可修改
-
 #id = ""				#KV数据库id
 
 # 1. 连接到你的KV命名空间
@@ -14,4 +13,5 @@ kv_namespaces = [
 ]
 # 2. 部署到workers.dev（最简单的方式）
 workers_dev = true
+
 
